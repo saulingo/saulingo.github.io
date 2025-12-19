@@ -1,7 +1,7 @@
 /* Make text bigger */
 body {
     font-size: 21px;
-    line-height: 2.2;
+    line-height: 1.8;
 }
 
 /* Dark mode */
@@ -20,6 +20,3 @@ a.top-right {
     right: 1rem;
 }
 
-ul {
-    margin-top: 0rem;
-}
