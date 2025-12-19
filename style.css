@@ -13,3 +13,9 @@ body {
 a {
     color: #0af; /* make links visible */
 }
+/* Top-right navigation link */
+a.top-right {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
