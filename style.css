@@ -19,3 +19,7 @@ a.top-right {
     top: 1rem;
     right: 1rem;
 }
+
+ul {
+    margin-top: 0.3rem;
+}
