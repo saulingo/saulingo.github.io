@@ -8,9 +8,19 @@
 <body>
   <h1>Saúl Rodríguez Martín</h1>
 
-  <p>
-    Mathematics PhD student at <span style="font-size: 120%;">The</span> Ohio State University. My OSU email is rodriguezmartin.1 at osu.edu
-  </p>
+<p>
+  Mathematics PhD student at
+  <span id="the-word" style="font-size: 120%;">The</span>
+  Ohio State University.
+</p>
+
+<script>
+  let size = 120;
+  setInterval(() => {
+    size += 1;
+    document.getElementById("the-word").style.fontSize = size + "%";
+  }, 1000);
+</script>
 
   <p>
     <a href="papers.html">Papers</a>
