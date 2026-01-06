@@ -11,19 +11,15 @@
   
 <p>
   Math PhD student at
-  <span id="the-word"
-        style="font-size:110%; display:inline-block;">
-    The
-  </span>
+  <span id="the-word" style="font-size: 110%;">The</span>
   Ohio State University. My OSU email is rodriguezmartin.1 at osu.edu
 </p>
 
 <script>
-  let scale = 1;
+  let size = 110;
   setInterval(() => {
-    scale += 0.1; // grows ~1% visually
-    document.getElementById("the-word").style.transform =
-      `scale(${scale})`;
+    size += 1;
+    document.getElementById("the-word").style.fontSize = size + "%";
   }, 2000);
 </script>
 
