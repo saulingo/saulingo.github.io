@@ -8,20 +8,27 @@
 <body>
   <h1>Saúl Rodríguez Martín</h1>
 
+  
 <p>
   Math PhD student at
-  <span id="the-word" style="font-size: 110%;">The</span>
+  <span id="the-word"
+        style="font-size:110%; display:inline-block;">
+    The
+  </span>
   Ohio State University. My OSU email is rodriguezmartin.1 at osu.edu
 </p>
 
 <script>
-  let size = 110;
+  let scale = 1;
   setInterval(() => {
-    size += 1;
-    document.getElementById("the-word").style.fontSize = size + "%";
+    scale += 0.01; // grows ~1% visually
+    document.getElementById("the-word").style.transform =
+      `scale(${scale})`;
   }, 2000);
 </script>
 
+
+  
   <p>
     <a href="papers.html">Papers</a>
     <br>
