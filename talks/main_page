@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slides/Notes – Saúl RM</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="format-detection" content="telephone=no">
+</head>
+<body>
 
+  <h1>Talk slides</h1>
+
+<p>
+  <a href="index.html" class="top-right">Home</a>
+</p>
+
+  <ol>
+
+    
+    <li>
+      <strong>An inverse of Furstenberg's correspondence principle and applications to van der Corput sets.</strong> 
+      <br>Trans. Amer. Math. Soc. 378 (2025), no. 12, 8909–8942.
+      <br><a href="https://www.ams.org/journals/tran/2025-378-12/S0002-9947-2025-09480-7/?active=current"target="_blank">Journal</a>
+      <a href="https://arxiv.org/abs/2409.00885"target="_blank">arXiv</a>
+    </li>
+    
+  </ol>
+
+<br>
+
+  <h1>Other notes</h1>
+<ol type="A">
+
+    <li>
+      <strong>Candidacy examination.</strong>
+      <br>Directed by Vitaly Bergelson, with additional research directed by Facundo Mémoli.
+      <br><a href="theses/Candidacy_document_V2.pdf"target="_blank">PDF</a> <a href="theses/Candidacy_Beamer_NoPause.pdf"target="_blank">Oral Presentation</a>
+
+</ol>
+
+
+</body>
+</html>
